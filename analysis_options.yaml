@@ -1,0 +1,11 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - prefer_single_quotes
+    - require_trailing_commas
+    - prefer_relative_imports
+    - use_super_parameters
+    - sort_constructors_first
+    - sort_child_properties_last
+    - always_declare_return_types
