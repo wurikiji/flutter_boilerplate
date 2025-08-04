@@ -1,6 +1,6 @@
 name: relove_app
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
@@ -8,14 +8,13 @@ environment:
 
 dependencies:
   dio: ^5.8.0+1
-  firebase_core: ^4.0.0
-  firebase_messaging: ^16.0.0
   flutter:
     sdk: flutter
   flutter_animate: ^4.5.2
   flutter_riverpod: ^2.6.1
   flutter_svg: ^2.2.0
   fpdart: ^1.1.1
+  logger: ^2.6.1
   meta: ^1.16.0
   path: ^1.9.1
   path_provider: ^2.1.5
@@ -28,6 +27,9 @@ dev_dependencies:
   flutter_lints: ^5.0.0
   retrofit_generator: ^10.0.1
   build_runner: ^2.6.0
+  mocktail: ^1.0.4
+  rename_app: ^1.6.5
+  change_app_package_name: ^1.5.0
 
 flutter:
   uses-material-design: true
