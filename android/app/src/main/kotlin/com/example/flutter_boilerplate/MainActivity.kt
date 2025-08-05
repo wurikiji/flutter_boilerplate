@@ -1,4 +1,4 @@
-package co.relove.relove_app
+package com.example.flutter_boilerplate
 
 import io.flutter.embedding.android.FlutterActivity
 
