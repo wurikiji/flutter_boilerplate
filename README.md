@@ -20,26 +20,8 @@ To change your package name, run `scripts/change_package_name.sh {your package n
 - **SVG Image**: flutter_svg
 - **Utils**: path, path_provider
 
-## Directory Structure
+## Flutter Clean Architecture & MVVM Manual
 
-```sh
-lib/
-  config/ # global configuration files
-    dependencies/ # dependency injections or overrides
-  data/ # data layer
-    local/ # local data implementation
-    remote/ # remote data implementation
-  domain/ # domain layer
-    models/ # core models
-    repositories/ # core repository interfaces - domain logics
-    usecases/ # core usecases
-  routing/ # routing settings
-  ui/ # ui layer
-    pages/ # screen page widgets
-    widgets/ # common widgets
-  utils/ # other utilities
-main_unit_test.dart # test entry
-main.dart # main entry
-```
+See [Architecture.md](./architecture.md) for detailed explanation.
 
-## Architecture
+See [examples/](./examples/) for an example app.
