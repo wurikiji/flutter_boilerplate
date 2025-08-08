@@ -29,6 +29,9 @@ lib/
 │       ├── application/    # Application Layer
 │       ├── infrastructure/ # Infrastructure Layer
 │       └── ui/             # Presentation Layer
+│           ├── pages/      # Page level widgets
+│           ├── widgets/    # Component level widgets
+│           └── view_models/# ViewModel
 ├── config/                 # Dependency Injection & Environment
 │   └── dependencies/       # DI Setup
 ├── routing/                # Navigation Definitions
